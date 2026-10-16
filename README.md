@@ -1,2 +1,30 @@
-# mazawlatak
-Mazawlatak: Arabic exam-prep question banks platform for Jordanian diploma and bachelor students (Firebase backend)
+# مزاولتك | Mazawlatak
+
+منصة أردنية لبيع بنوك الأسئلة والاختبارات التجريبية لطلاب الدبلوم والبكالوريوس، تساعدهم على التدريب والاستعداد للامتحانات.
+
+🔗 **الموقع التجريبي:** https://a34774566-arch.github.io/mazawlatak/
+
+## فكرة المشروع
+يواجه الطالب صعوبة في إيجاد أسئلة تدريبية منظمة تشبه أسلوب الامتحانات. مزاولتك تقدّم بنوك أسئلة لكل مادة وتخصص، مع اختبارات بتصحيح فوري وشرح للإجابات، وتتبع لمستوى الطالب.
+
+## المزايا
+- بنوك أسئلة للدبلوم والبكالوريوس حسب التخصص والمادة
+- عينة مجانية لكل بنك قبل الشراء
+- وضع تدريب بشرح فوري، ووضع امتحان تجريبي بمؤقت
+- خلط الأسئلة والخيارات، وحفظ التقدم، وسجل النتائج ومراجعة الأخطاء
+- أكواد خصم، ولوحة إدارة لمراجعة الطلبات
+- الدفع عبر محفظة Orange Money بالدينار الأردني (تأكيد يدوي من الإدارة)
+
+## التقنيات
+- واجهة ويب عربية RTL (HTML / JavaScript)
+- Firebase: Authentication, Firestore, Cloud Functions
+- قواعد أمان تمنع الوصول إلى الأسئلة المدفوعة والإجابات قبل الشراء، والتصحيح يتم على الخادم
+
+## حالة المشروع
+نموذج أولي قيد التطوير. الدفع حاليًا يدوي (تحويل ثم إدخال رقم العملية ثم تأكيد المسؤول)، ولا يوجد ربط تلقائي مع Orange Money.
+
+## التشغيل
+راجع ملف `functions` وإعدادات Firebase، ثم انشر بالأمر `firebase deploy`.
+
+---
+**Mazawlatak** is an Arabic exam-prep platform for Jordanian diploma and bachelor students: question banks, timed mock exams, instant grading, and manual Orange Money payment review. Built with Firebase.
